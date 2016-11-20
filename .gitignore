@@ -1,4 +1,10 @@
+# Build
 *.class
+*.ipr
+*.iws
+.gradle
+/build/
+/out/
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/

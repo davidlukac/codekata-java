@@ -1,6 +1,4 @@
-package com.davidlukac.katas;
-
-import org.jetbrains.annotations.NotNull;
+package com.davidlukac.katas.mumbling;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +61,6 @@ public class Accumul {
      * @param n Number of repetitions.
      * @return Resulting string.
      */
-    @NotNull
     private static String repeat(Character c, Integer n) {
         return c.toString().toUpperCase().concat(new String(new char[n-1]).replace("\0", c.toString().toLowerCase()));
     }
